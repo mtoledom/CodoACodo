@@ -1,0 +1,20 @@
+
+footer{
+    background-color: rgb(49, 45, 45);
+    color: rgb(255, 253, 253);
+    height: 150px;
+    margin: 5% 0% 0% 0%;
+    
+}
+.container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.colorboton{
+    background-color: chartreuse;
+}
+
+.colorboton:hover{
+    background-color: coral;
+}

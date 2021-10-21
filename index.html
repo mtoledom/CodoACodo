@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicio obligatorio Bootstrap</title>
+  </head>
+  <body>
+    <!--ACA EMPIEZA LA BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://www.buenosaires.gob.ar/educacion/codo-codo" target="_blank">Codo a Codo</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disactivado</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 colorboton" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!--ACA TERMINA LA BARRA DE NAVEGACIÓN-->
+
+    <!--INICIO DE LAS CARDS-->
+    <div class="card-group">
+        <div class="card">
+          <img src="Logo_html5.jpg" class="card-img-top" alt="Imagen de HTML">
+          <div class="card-body">
+            <h5 class="card-title">Logo de HTML</h5>
+            <span class="badge bg-danger">HTML</span>
+            <p class="card-text">Este es el logo de HTML</p>
+            <small class="text-muted">Última actualización hace 2 minutos</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Logo_css.png" class="card-img-top" alt="Imagen de CSS">
+          <div class="card-body">
+            <h5 class="card-title">Logo de CSS</h5>
+            <span class="badge bg-primary">CSS</span>
+            <p class="card-text">Este es el logo de CSS</p>
+            <small class="text-muted">Última actualización hace 2 minutos</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Logo_bootstrap.png" class="card-img-top" alt="Imagen de Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Logo de Bootstrap</h5>
+            <span class="badge bg-dark" style="color: white;">Bootstrap</span>
+            <p class="card-text">Este es el logo de Bootstrap</p>
+            <small class="text-muted">Última actualización hace 2 minutos</small>
+          </div>
+        </div>
+      </div>
+    <!--FIN DE LAS CARDS-->
+
+    <!--INICIO DE FORMULARIO-->
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    <!--FIN DE FORMULARIO-->
+
+    <!--INICIO DE FOOTER-->
+    <footer>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <a href="">Codo a Codo</a>
+            </div>
+            <div class="col">
+              <p>Diseñado por: Miguel Toledo</p>
+            </div>
+            <div class="col">
+              <p>Contacto: 1167133206</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+  
+    <!--FIN DE FOOTER-->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
